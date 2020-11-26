@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>리스트뷰</title>
+  <script src="jquery.js"></script>
+  <script src="jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <h1>header영역</h1>
+    </div>
+    <div data-role="content">
+      <p>content영역</p>
+      <ul data-role="listview" data-inset="true" data-split-icon="grid">
+        <li data-role="listdivider">ㄱ</li>
+        <li><a href="#">강<span class="ui-li-count">5</span></a><a href="#">상세내용</a></li>
+        <li data-role="listdivider">ㅅ</li>
+        <li><a href="#">산<span class="ui-li-count">17</span></a><a href="#">상세내용</a></li>
+        <li><a href="#">산마루<span class="ui-li-count">HOT</span></a><a href="#">상세내용</a></li>
+        <li data-role="listdivider">ㅎ</li>
+        <li><a href="#">하늘<span class="ui-li-count">NEW</span></a><a href="#">상세내용</a></li>
+      </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <h4>footer영역</h4>
+    </div>
+  </div>
+</body>
+</html>

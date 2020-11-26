@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>리스트뷰</title>
+  <script src="jquery.js"></script>
+  <script src="jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <h1>header영역</h1>
+    </div>
+    <div data-role="content">
+      <p>content영역</p>
+      <ul data-role="listview" data-inset="true" data-divider-theme="e">
+        <li data-role="listdivider">박물관 종류</li>
+        <li><a href="#">자연사박물관</a></li>
+        <li><a href="#">등대박물관</a></li>
+        <li><a href="#">공룡박물관</a></li>
+        <li><a href="#">하늘박물관</a></li>
+      </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <h4>footer영역</h4>
+    </div>
+  </div>
+</body>
+</html>
