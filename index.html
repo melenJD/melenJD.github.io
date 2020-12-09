@@ -3,9 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>제이쿼리 모바일</title>
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+  <script src="jquery.js"></script>
+  <script src="jquery.mobile-1.4.5.min.js"></script>
+  <style>
+    li { list-style:none; }
+    .picture { padding:0; margin:0; }
+    .picture li { float:left; width:50%; }
+    .picture li a { display:block; margin:5px; }
+    .picture li img { display:block; width:50%; height:auto; }
+    .picture li img:hover { display:block; width:100%; height:auto; }
+  </style>
 </head>
 <body>
-  
+  <div data-theme="b">
+    <div data-role="page" id="home">
+      <div data-role="header" data-theme="b">
+        <h1>독도 소개 앱</h1>
+      </div>
+      <div data-role="content">
+        <img src="bgdokdo1.png">
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#intro">독도소개</a></li>
+          <li><a href="#movie" data-rel="dialog">독도영상</a></li>
+          <li><a href="#wizard3-1" data-rel="dialog">독도음악</a></li>
+          <li><a href="#gallery">독도사진</a></li>
+        </ul>
+      </div>
+      <div data-role="footer" data-position="fixed" data-theme="b">
+        <h1>독도사랑_홍길동</h1>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
